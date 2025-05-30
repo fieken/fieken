@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Undangan Ulang Tahun</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80'); /* Pantai tropis */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #003366;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.2); /* Lebih transparan: hanya 20% putih */
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      padding: 40px;
+      text-align: center;
+      backdrop-filter: blur(5px); /* Membuat kontainer lebih lembut */
+    }
+
+    h1 {
+      color: #0077b6;
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .balloons {
+      font-size: 40px;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #004b70;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #336699;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #00aaff;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: pulse 2s infinite;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(0, 170, 255, 0.8), 0 0 30px rgba(0, 170, 255, 0.4);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+      }
+      50% {
+        box-shadow: 0 0 20px rgba(0, 170, 255, 0.8);
+      }
+      100% {
+        box-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="balloons">🏖️🌺🎉</div>
+    <h1>Undangan Ulang Tahun!</h1>
+    <p>Halo teman-teman!</p>
+    <p>Yuk rayakan hari ulang tahunku dengan nuansa tropis yang seru!</p>
+    <p><strong>Nama:</strong> Fieken</p>
+    <p><strong>Tanggal:</strong> 10 Juni 2025</p>
+    <p><strong>Waktu:</strong> 16:00 WITA</p>
+    <p><strong>Tempat:</strong> Rumah Fieken, Manado</p>
+    <a href="ALBUM.html"target="muka""#" class="btn">Konfirmasi Kehadiran"</a>
+    <div class="footer">
+      Jangan lupa bawa semangat liburanmu! 🏝️🌞
+    </div>
+  </div>
+</body>
+</html>
